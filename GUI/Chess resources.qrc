@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>Images/logo.png</file>
+  </qresource>
+  <qresource prefix="Pieces">
+    <file>Images/Theme1.png</file>
+    <file>Images/Theme2.png</file>
+    <file>Images/Theme3.png</file>
+  </qresource>
+  <qresource prefix="Board">
+    <file>Images/board2.png</file>
+    <file>Images/bord1.png</file>
+  </qresource>
+  <qresource prefix="hand">
+    <file>Images/playerhand.png</file>
+  </qresource>
+  <qresource prefix="King">
+    <file>Images/king.png</file>
+  </qresource>
+  <qresource prefix="Frame2">
+    <file>Images/frame.png</file>
+  </qresource>
+  <qresource prefix="Exit">
+    <file>Images/Bye.png</file>
+  </qresource>
+  <qresource prefix="Scores">
+    <file>Images/Chess WorldCup.png</file>
+  </qresource>
+</RCC>

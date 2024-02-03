@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ThemeForm</class>
+ <widget class="QWidget" name="ThemeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.432, y1:0.409091, x2:1, y2:1, stop:0 rgba(255, 255, 127, 243), stop:1 rgba(255, 255, 255, 255));
+</string>
+  </property>
+  <widget class="QLabel" name="txtPlayerName">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Choose a Theme</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioTheme2">
+   <property name="geometry">
+    <rect>
+     <x>223</x>
+     <y>110</y>
+     <width>149</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Theme2</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioTheme3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>290</y>
+     <width>149</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Theme3</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioTheme1">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>110</y>
+     <width>149</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Theme1</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSave">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>460</y>
+     <width>111</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;Times New Roman&quot;;
+background-color:rgb(170, 0, 0);
+color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-17</y>
+     <width>421</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/frame2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>140</y>
+     <width>60</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/Pieces/Images/Sets/1/01.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>144</y>
+     <width>81</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/Theme2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_5">
+   <property name="geometry">
+    <rect>
+     <x>163</x>
+     <y>320</y>
+     <width>81</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>71</width>
+     <height>101</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/Theme3.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCancel">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>460</y>
+     <width>111</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;Times New Roman&quot;;
+background-color:rgb(170, 0, 0);
+color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_4">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>160</y>
+     <width>61</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/Theme1.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_6">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>150</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);
+border:  2px solid black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/1.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_7">
+   <property name="geometry">
+    <rect>
+     <x>243</x>
+     <y>150</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);
+border:  2px solid black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_8">
+   <property name="geometry">
+    <rect>
+     <x>149</x>
+     <y>320</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 22pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);
+border:  2px solid black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/3.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>txtPlayerName_2</zorder>
+  <zorder>txtPlayerName_7</zorder>
+  <zorder>txtPlayerName_6</zorder>
+  <zorder>label</zorder>
+  <zorder>txtPlayerName</zorder>
+  <zorder>radioTheme2</zorder>
+  <zorder>radioTheme3</zorder>
+  <zorder>radioTheme1</zorder>
+  <zorder>btnSave</zorder>
+  <zorder>txtPlayerName_3</zorder>
+  <zorder>btnCancel</zorder>
+  <zorder>txtPlayerName_4</zorder>
+  <zorder>txtPlayerName_8</zorder>
+  <zorder>txtPlayerName_5</zorder>
+ </widget>
+ <resources>
+  <include location="Chess resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

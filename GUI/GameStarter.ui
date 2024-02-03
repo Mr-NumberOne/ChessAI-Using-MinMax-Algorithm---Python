@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameStarterForm</class>
+ <widget class="QWidget" name="GameStarterForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.432, y1:0.409091, x2:1, y2:1, stop:0 rgba(255, 255, 127, 243), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QLabel" name="txtPlayerName_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>283</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Level:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Play as:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>321</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 26pt &quot;Cooper Black&quot;;
+color:rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Enter You Name </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPlayerName">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>160</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255, 255, 127, 100);
+font: 18pt &quot;Cooper Black&quot;;
+color: rgb(100, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>unKnown GM</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_6">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>-20</y>
+     <width>211</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/playerhand.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioWhite">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>220</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>White</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioBlack">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>220</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Black</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPlay">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>440</y>
+     <width>131</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;Times New Roman&quot;;
+background-color:rgb(100, 0, 0);
+color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBack">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>490</y>
+     <width>131</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;Times New Roman&quot;;
+background-color:rgb(170, 0, 0);
+color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comLevel">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>280</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Cooper Black&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Easy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hard</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="lbl_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 28pt &quot;Cooper Black&quot;;
+color:rgb(100, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>GrandMaster</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtPlayerName_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>231</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 18pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>txtPlayerName_2</zorder>
+  <zorder>txtPlayerName_4</zorder>
+  <zorder>txtPlayerName_3</zorder>
+  <zorder>lbl</zorder>
+  <zorder>radioWhite</zorder>
+  <zorder>radioBlack</zorder>
+  <zorder>btnPlay</zorder>
+  <zorder>btnBack</zorder>
+  <zorder>txtPlayerName_6</zorder>
+  <zorder>comLevel</zorder>
+  <zorder>lbl_2</zorder>
+  <zorder>txtPlayerName</zorder>
+  <zorder>txtPlayerName_7</zorder>
+ </widget>
+ <resources>
+  <include location="Chess resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
